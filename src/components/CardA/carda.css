@@ -9,6 +9,7 @@
 .card__h1-a {
   margin-left: 16.25rem;
   margin-bottom: 7.5rem;
+  font-size: var(--heading-text-size);
 }
 
 .card__content-a {

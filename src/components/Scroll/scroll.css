@@ -1,0 +1,20 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  width: 102.5rem;
+  margin-top: 15rem;
+  margin-left: 16.3rem;
+  background-color: aqua;
+}
+
+.scroll__container {
+  display: flex;
+  overflow-x: scroll;
+  height: 30.5rem;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery__h1 {
+  font-size: var(--heading-text-size);
+  font-family: var(--header-font);
+}
