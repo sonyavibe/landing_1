@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*=======FONTS=======*/
+@import url('https://fonts.cdnfonts.com/css/orchidea-pro');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*=======VARIABLES=======*/
+:root {
+  /*colors*/
+  --background-color: #E5E5E5;
+  --text-color: #141414;
+  --white: #FFFFFF;
+  /*font family properties*/
+  --header-font: 'Orchidea Pro';
+  --body-font: 'Manrope';
+  --footer-font: 'Roboto';
+  /*font size properties*/
+  --heading-text-size: 3rem;
+  --body-text-size: 1.125rem;
+  --header-text-size: 1.5rem;
+  --footer-text-size: 0.875rem;
+  --font-normal: 400;
+  }
+
+  /*responsive font properties*/
+  @media screen and (max-width: 500px){
+    :root{
+      --heading-text-size: 1.5rem;
+      --body-text-size: 0.875rem;
+    }  
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-weight: var(--font-normal);
+  font-family: var(--body-font);
+}
+
+h1, h2, h3 {
+  font-family: var(--header-font);
+  font-weight: var(--font-normal);
+}
