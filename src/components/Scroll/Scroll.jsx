@@ -25,7 +25,7 @@ const Scroll = () => {
       <div className="scroll__container" ref={containerRef}>
         {Data.map((item) => {
           return (
-            item.available ?
+            item ?
             <Card item={item} key={item.id} />
             : <div className=""></div>
           )
