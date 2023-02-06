@@ -1,0 +1,44 @@
+.card__container-a {
+  margin-top: 15rem;
+  width: 99.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__h1-a {
+  margin-left: 16.25rem;
+  margin-bottom: 7.5rem;
+}
+
+.card__content-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__image-a {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 53.75rem;
+  height: 30rem;
+}
+
+.card__text-a {
+  width: 37.5rem;
+  height: 20.3rem;
+}
+
+.card__h2-a {
+  font-family: var(--header-font);
+  font-size: var(--heading-text-size);
+  margin-bottom: 1.6rem;
+}
+
+.card__subtext-a {
+  font-family: var(--body-font);
+  font-size: var(--body-text-size);
+  margin-bottom: .5rem;
+}

@@ -1,0 +1,30 @@
+.card__container-b {
+  margin-top: 5rem;
+  width: 99.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 16.3rem;
+}
+
+.card__text-b {
+  width: 37.5rem;
+  height: 20.3rem;
+}
+
+.card__h2-b {
+  font-family: var(--header-font);
+  font-size: var(--heading-text-size);
+  margin-bottom: 1.6rem;
+}
+
+.card__subtext-b {
+  font-family: var(--body-font);
+  font-size: var(--body-text-size);
+  margin-bottom: .5rem;
+}
+
+.card__image-b {
+  width: 37.5rem;
+  height: 25.7rem;
+}
