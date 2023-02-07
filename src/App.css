@@ -45,6 +45,12 @@ body {
   font-family: var(--body-font);
 }
 
+.app__container {
+  scroll-snap-type: y-mandatory;
+  overflow: scroll;
+}
+
+
 h1, h2, h3 {
   font-family: var(--header-font);
   font-weight: var(--font-normal);

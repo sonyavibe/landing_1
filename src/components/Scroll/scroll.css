@@ -1,27 +1,43 @@
 .scroll {
- display: flex;
+  display: flex;
   flex-direction: column;
-  width: 102.5rem;
+  width: 100%;
   margin-top: 15rem;
-  margin-left: 16.3rem;
+  position: sticky;
+  top: 15%;
+  min-height: 10rem;
+  margin-bottom: 110rem;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
-.gallery {
-  white-space: nowrap;
-  overflow-x: scroll;
-}
 
 .scroll__container {
-  overflow: hidden;
-  direction: rtl;
+  
   display: flex;
   justify-content: space-between;
   height: 100%;
   width: 220vmax;
+  position: relative;
+  left: 130%;
+
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  
 }
 
 .gallery__h1 {
   font-size: var(--heading-text-size);
   font-family: var(--header-font);
   margin-bottom: 7.5rem;
+  margin-left: 16.3rem;
+}
+
+@keyframes rotate {
+  to {
+    transform: translateX(-450rem);
+  }
 }
