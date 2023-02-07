@@ -3,3 +3,8 @@
   height: 30.5rem;
   margin-right: 3rem;
 }
+
+.card__item {
+  width: 100%;
+  height: 100%;
+}

@@ -1,63 +1,51 @@
 const Data = [
   {
    id: 1,
-   image: '../../assets/1.png',
-   color: '#ff426b',
+   image: '1.png',
   },
   {
    id: 2,
-   image: '../../assets/2.png',
-   color: '#ff42ba',
+   image: '2.png',
   },
   {
    id: 3,
-   image: '../../assets/3.png',
-   color: '#bd42ff',
+   image: '3.png',
   },
   {
    id: 4,
-   image: '../../assets/4.png',
-   color: '#6012fc',
+   image: '4.png',
   },
   {
    id: 5,
-   image: '../../assets/5.png',
-   color: '#1300e6',
+   image: '5.png',
   },
   {
    id: 6,
-   image: '../../assets/6.png',
-   color: '#295bf2',
+   image: '6.png',
   },
   {
    id: 7,
-   image: '../../assets/7.png',
-   color: '#29a9f2',
+   image: '7.png',
   },
   {
    id: 8,
-   image: '../../assets/8.png',
-   color: '#61fffc',
+   image: '8.png',
   },
   {
    id: 9,
-   image: '../../assets/9.png',
-   color: '#70ffa0',
+   image: '9.png',
   },
   {
    id: 10,
-   image: '../../assets/10.png',
-   color: '#b3ff9e',
+   image: '10.png',
   },
   {
    id: 11,
-   image: '../../assets/11.png',
-   color: '#e5ff9e',
+   image: '11.png',
   },
   {
    id: 12,
-   image: '../../assets/12.png',
-   color: '#ffd438',
+   image: '12.png',
   }
  ];
 

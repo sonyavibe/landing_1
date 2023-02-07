@@ -1,19 +1,27 @@
-.gallery {
-  display: flex;
+.scroll {
+ display: flex;
   flex-direction: column;
   width: 102.5rem;
   margin-top: 15rem;
   margin-left: 16.3rem;
 }
 
-.scroll__container {
-  display: flex;
+.gallery {
+  white-space: nowrap;
   overflow-x: scroll;
-  height: 30.5rem;
-  scroll-snap-type: x mandatory;
+}
+
+.scroll__container {
+  overflow: hidden;
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 220vmax;
 }
 
 .gallery__h1 {
   font-size: var(--heading-text-size);
   font-family: var(--header-font);
+  margin-bottom: 7.5rem;
 }

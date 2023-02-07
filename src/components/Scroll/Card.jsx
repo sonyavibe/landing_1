@@ -5,7 +5,7 @@ import './card.css';
 const Card = ({item}) => {
   return (
     <div className="card__container" key={item.id}>
-      <div style={{backgroundColor: item.color}}></div>
+      <div className="card__item" style={{backgroundImage: `url(${require(`./../../assets/${item.image}`)})`}}></div>
     </div>
   )
 }

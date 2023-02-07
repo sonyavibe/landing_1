@@ -25,6 +25,7 @@
 }
 
 .card__image-b {
+  background-position: center;
   width: 37.5rem;
   height: 25.7rem;
 }
