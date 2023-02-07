@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import CardA from './components/CardA/CardA';
 import CardB from './components/CardB/CardB';
 import Scroll from './components/Scroll/Scroll';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <CardA id={2}/>
         <CardB id={2}/>
       </main>
+      <Footer />
     </div>
   );
 }
