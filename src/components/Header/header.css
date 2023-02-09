@@ -32,3 +32,27 @@
   font-family: var(--body-font);
   font-size: var(--header-text-size)
 }
+
+.phone__icon {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 3.75rem;
+  }
+
+  .header__logo {
+    width: 7.4rem;
+    height: 1.25rem;
+  }
+
+  .header__phone {
+    display: none;
+  }
+
+  .phone__icon {
+    display:initial;
+    color: var(--white);
+  }
+}

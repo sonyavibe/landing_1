@@ -41,3 +41,36 @@
     transform: translateX(-450rem);
   }
 }
+
+@media screen and (max-width: 500px){
+  .scroll {
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    margin-top: 4rem;
+    position: relative;
+    top: 0;
+    left: 1.25rem;
+    margin-bottom: 1rem;
+   
+    white-space:normal;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .scroll__container-swiper {
+    animation: none;
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+    width: 23.3rem;
+    position: initial;
+  }
+
+  .gallery__h1 {
+    margin-bottom: 4rem;
+    margin-left: 0rem;
+    width: 15rem;
+  }
+}

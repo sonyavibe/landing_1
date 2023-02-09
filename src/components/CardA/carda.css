@@ -43,3 +43,39 @@
   font-size: var(--body-text-size);
   margin-bottom: .5rem;
 }
+
+@media screen and (max-width: 500px) {
+
+  .card__container-a {
+    margin-top: 6.5rem;
+    width: 23.3rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card__h1-a {
+    margin-left: 1.25rem;
+    margin-bottom: 4rem;
+    width: 15rem;
+  }
+
+  .card__content-a {
+    flex-direction: column;
+  }
+
+  .card__image-a {
+    width: 23.6rem;
+    height: 23.6rem;
+    background-size: cover;
+  }
+
+  .card__text-a {
+    width: 21rem;
+    height: 18.7rem;
+    margin-top: 2rem;
+  }
+  
+
+}
